@@ -1,0 +1,16 @@
+import string 
+
+varA = "fear to lose."
+varB = "let go of "
+varC = "Train yourself to "
+varD = "everything you "
+varE = "exploit "
+
+option1 = (len(varB) - varB.count (" "))
+option2 = (len(varE) - varE.count (" "))
+
+if option1 != option2:
+    print (varC + varB + varD + varA)
+else:
+    print (varC + varE + varD + varA)
+    
